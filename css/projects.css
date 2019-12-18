@@ -1,0 +1,58 @@
+html, body {
+  background-image: url("Images/landscape.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+
+}
+p {
+  font-family:  Georgia,sans-serif, Times, serif;
+  font-size: 30px;
+  color: white;
+}
+li{
+  font-family:  Georgia,sans-serif, Times, serif;
+  font-size: 20px;
+}
+.bio-box {
+  width: 70%;
+  height: auto;
+  background-color: rgba(0,0, 0, 0.95);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.car{
+  /*position: relative;
+  left: 18%;
+  top: 30px;*/
+
+  flex: 1 1 auto;
+   height: 80%;
+   width: 80%;
+   display: block;
+   max-width:650px;
+   max-height:440px;
+   margin-left: auto;
+   margin-right: auto
+
+}
+
+.gfr{
+  color: white;
+  position: relative;
+  width: 80%;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 25px;
+}
+.prj-title{
+  color: white;
+  position: relative;
+  font-size: 30px;
+  left: 120px;
+}

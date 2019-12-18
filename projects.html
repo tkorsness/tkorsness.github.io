@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thomas Korsness</title>
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+  <div class="bio-box">
+      <br>
+      <p class="prj-title">Global Formula Racing </p>
+      <img class="car" src="Images/car.jpg" alt="Failed to Load" >
+      <br>
+      <p class="gfr"> As a part of my senior project at Oregon State I chose to help develop an autonomous race car for Global Formula Racing.
+        This car would compete at formula student competitions in Germany and Spain in the summer of 2019. I was responsible for the simultaneous localization and mapping portion of the project, also known as slam.
+        A slam implementation is able estimate the location of the car and its surroundings simultaneously without any prior knowledge of the environment.
+        We were able to write our own slam implementation in time for the competitions. Unfortunately the car was unable to compete in dynamic events due to scrutineering issues.
+        luckily we were still able to compete in static events. This included design defence. In the design defense competition I defended our implementation of slam to a number of judges in the autonomous industry.
+        The team ended up performing well in these static events allowing us to finish in the middle of the pack despite missing out on a large chunk of points from dynamic events.
+         </p>
+
+
+         <br><br>
+         <p class="prj-title">OpenGL</p>
+         <img class="car" src="Images/track.png" alt="Failed to Load" >
+         <br>
+         <p class="gfr">A simplified outline of the Circtuit de Catalunya built in openGL using bezier curves.
+           All of the control points of the bexier curves are animated to rise up to the actual elevation of the track.
+           A video can be found <a href="https://www.youtube.com/watch?v=y_kxumQbY5k&feature=youtu.be">here</a>.</p>
+           <br>
+         <img class="car" src="Images/tpot.png" alt="Failed to Load" >
+         <p class="gfr">A simple teapot built using the built in openGL teapot function. The interesting part of this is how it is animated.
+           Both the color and shape of the teapot are animated using shaders. The video can be found <a href="https://www.youtube.com/watch?v=BbmT2rAayv0&feature=youtu.be">here</a>.</p>
+
+         <img class="car" src="Images/lighting.png" alt="Failed to Load" >
+         <p class="gfr">A few random objects with different properties reacting with different lights.
+           Some of the lights and objects are animated and can be found <a href="https://www.youtube.com/watch?v=ae8ybWSF2KI&feature=youtu.be">here</a>. </p>
+           <br><br>
+
+         <p class="prj-title">Cache Simulator</p>
+         <img class="car" src="Images/cache_graph.png" alt="Failed to Load" >
+         <br>
+
+         <p class="gfr">This graph displays the results of a cache comparison test. The goal of this project was to test if the following statement holds true.
+         There is a general rule of thumb that a direct-mapped cache of size N has about the same miss rate as a 2-way set associative cache of size N/2.
+         I was able to test this by writing a cache simulator. This program can be configured to simulate different cache versions. The cache takes load, store, and modify operations as input.
+         The program then tells us how many hits and misses we got. The graph above displays the resulting hit/miss ration for a varying number of instructions.
+         The graph shows us that the statement in question holds true for a small number of instructions,
+          but as the number of instructions increases the benefit of a 2-way associative cache with a smaller size becomes greater.</p>
+
+          <img class="car" src="Images/cache_table_1.png" alt="Failed to Load" >
+          <br>
+          <p class="gfr">These tables show the exact results I got from my cache simulator for both direct mapped and 2-way associative caches.</p>
+          <img class="car" src="Images/cache_table_2.png" alt="Failed to Load" >
+          <br>
+
+
+
+
+  </div>
+
+
+</body>
+</html>
